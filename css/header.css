@@ -1,0 +1,18 @@
+.list {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: var(--color-neutral);
+  float: right;
+  display: inline;
+  padding-top: 15px;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.item.-last {
+  margin-right: 0;
+}
