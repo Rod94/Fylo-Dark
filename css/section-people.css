@@ -1,0 +1,22 @@
+.section-people {
+  text-align: center;
+}
+
+
+.title-people {
+  color: var(--color-neutral);
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.subtitle-people {
+  color: var(--color-neutral);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.button-people {
+  background-color: var(--color-cyan);
+  color: var(--color-neutral);
+}
