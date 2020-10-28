@@ -1,7 +1,19 @@
 .section-icons {
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+  height: 50%;
+}
+
+ .ul-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li-icons {
+  width: 50%;
   text-align: center;
-  margin-top: 100px;
-  width: 600px;
+  padding-bottom: 50px;
 }
 
 .title-icons {
@@ -9,11 +21,14 @@
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 2;
+  font-weight: bold;
 }
 
 .subtitle-icons {
   color: var(--color-neutral);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.3;
+  width: 390px;
+  margin: 0 auto;
 }
