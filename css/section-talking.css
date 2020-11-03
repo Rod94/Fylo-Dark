@@ -5,7 +5,19 @@
 }
 
 .quote-card {
-  width: 350px;
+  width: 400px;
   height: 180px;
   background-color: var(--color-testimonials);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.talking-text {
+  color: var(--color-neutral);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  width: 350px;
 }
