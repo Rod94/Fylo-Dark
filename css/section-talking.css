@@ -1,0 +1,11 @@
+.section-talking {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote-card {
+  width: 350px;
+  height: 180px;
+  background-color: var(--color-testimonials);
+}
