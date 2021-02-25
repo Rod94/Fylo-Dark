@@ -1,4 +1,26 @@
 .section-card {
+  margin: 0 auto;
+  width: 900px;
+  height: 250px;
+  border-radius: 1.5%;
+  background-color: var(--color-intro-email);
   color: var(--color-neutral);
   font-family: "Open Sans", sans-serif;
+}
+
+.big-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-card {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.email-card {
+  border-radius: 40px 40px 40px 40px;
+  width: 600px;
+  height: 50px;
 }

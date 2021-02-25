@@ -1,5 +1,6 @@
 .section-talking {
   margin-top: 100px;
+  margin-bottom: 250px;
   display: flex;
   justify-content: space-evenly;
 }
