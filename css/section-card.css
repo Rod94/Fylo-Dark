@@ -11,16 +11,48 @@
 .big-card {
   display: flex;
   flex-wrap: wrap;
+
 }
 
-.title-card {
-  margin-top: 40px;
+.big-card > .title-card {
   font-size: 40px;
   font-weight: bold;
+  width: 800px;
+  margin: 40px 200px 10px;
+}
+
+.big-card > .paragraph-card {
+  font-size: 14px;
+  line-height: 2;
+  width: 750px;
+  margin: 0 105px 0;
+}
+
+.input-button-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 50px 0;
 }
 
 .email-card {
   border-radius: 40px 40px 40px 40px;
   width: 600px;
   height: 50px;
+  border: none;
+}
+
+.email-card::placeholder {
+  opacity: 90;
+}
+
+.button-card {
+  background-color: var(--color-cyan);
+  color: var(--color-neutral);
+  width: 150px;
+  height: 50px;
+  border-radius: 70px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
 }

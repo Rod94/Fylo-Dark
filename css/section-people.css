@@ -3,18 +3,17 @@
   margin-top: 100px;
   width: 600px;
   margin: 0 auto;
+  color: var(--color-neutral);
+  font-family: "Open Sans", sans-serif;
 }
 
-.title-people {
-  color: var(--color-neutral);
-  font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+.title-people {  
+  font-weight: bold;  
   font-size: 40px;
   margin-top: 25px;
 }
 
 .subtitle-people {
-  color: var(--color-neutral);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin-top: 25px;
@@ -28,7 +27,6 @@
   height: 40px;
   border-radius: 70px;
   border: none;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: bold;
 }
