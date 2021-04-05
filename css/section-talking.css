@@ -7,9 +7,9 @@
 
 .quote-img {
   height: 50px;
-  margin-top: -35px;
   position: absolute;
-  left: 80px;
+  left: 290px;
+  top: 2015px;
 }
 
 .quote-card {
@@ -17,10 +17,9 @@
   height: 180px;
   background-color: var(--color-testimonials);
   display: block;
-  position: relative;
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
-
 
 .talking-text {
   color: var(--color-neutral);

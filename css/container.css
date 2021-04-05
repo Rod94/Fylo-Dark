@@ -1,6 +1,9 @@
 .container {
   max-width: 1440px;
-  box-sizing: border-box;
-  padding: 50px;
-  background-color: var(--color-background);
+  width: 90vw;
+  background-color: red;
+  padding: 40px;
+  display: block;
+  margin: 0 auto;
+  background-color: #1C2230;
 }
